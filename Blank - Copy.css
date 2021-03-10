@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 10px;
+    min-width: 650px;
+}
+.contact-content{
+    background-color: darkorchid;
+    min-height: 100vh;
+}
+.nav{
+    background-color: rgb(81, 143, 243);
+    padding: 3px 00;
+    border: rgb(red, green, lightblue) solid 1px;
+}
+.nav-wrap{
+    background-color: rgb(7, 51, 121);
+    text-align: center;
+}
+.nav-content{
+    background-color: rgb(7, 51, 121);
+    min-width: 685px;
+}
+.nav-content a{
+    
+    color: white;
+    padding: 5px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 2rem;
+}
+/* Header start here for dextop */
+.header{
+    background-color: rgb(248, 229, 248);
+    color: black;
+    width: 80%;
+    height: auto;
+    min-width: 685px;
+    margin: 0 auto;
+    padding: 4px 5px 0 0;
+}
+.image{
+    border: solid black 2px;
+    min-width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin-left: 10px;
+    border-radius: 100%;
+    text-align: center;
+    background-attachment: fixed;
+
+}
+img{
+    width: 150px;
+    height: auto;
+    /* border-radius: 100px; */
+}
+.header-cotent{
+    display: flex;
+}
+.name{
+    width: 100%;
+    
+    /* padding: 70px 10px; */
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0px;
+}
+.name-content{
+    grid-column-start: 1/3;
+    width: 350px;
+    padding: 50px 10px;
+    
+}
+.name .name-wrap .name-content .head{
+    color: rgb(3, 11, 19);
+    font-size: 50px;
+    font-weight: normal;
+    
+}
+.name p{
+    color: rgb(6, 26, 43);
+    font-size: 1.5rem;
+    text-align: right;
+    padding-right: 30px;
+}
+.contact{
+    text-align: right;
+    padding: 40px 100px 40px 0;
+ 
+   
+}
+.contact a{
+    color: rgb(20, 2, 2);
+    display: block;
+    font-size: 2rem;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-right: 20px;    
+}
+
+.main-content{
+    background-color: rgb(241, 249, 252);
+    color: black;
+    width: 80%;
+    min-width: 685px;
+    min-height: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+    display:block;
+    position: relative;
+}
+.left{
+    background-color: rgb(5, 5, 92);
+    color: rgb(184, 241, 127);
+    text-align: center;
+    height: 1200px;
+    width: 200px;
+    margin: 0;
+    padding: 10px 5px;
+    border-top-right-radius: 50px;
+    position: absolute;
+    z-index: 1;
+}
+.left .left-wrap > p{
+ margin-bottom: 0px;
+ padding: 10px;
+ font-size: 1.5rem;
+ 
+ box-shadow: slateblue 2px 0;
+}
+.left .left-wrap > p:first-child{
+ margin-top: 50px;
+}
+.left .left-wrap > p:hover{
+    background-color: wheat;
+    color: slateblue;
+    border: 2px solid red;
+    box-shadow: slateblue 2px 0;
+    
+}
+.right{
+    background: rgb(220, 237, 247);
+    position: absolute;
+    margin-left: 180px;
+    padding: 5px 5px 0 25px ;
+    max-width: 90%;
+    min-width: 505px;
+    min-height: 1200px;
+}
+
+
+h4{
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+}
+.name-info{
+    background: white;
+    /* width: 150px; */
+    /* text-align: right; */
+    position: relative;
+}
+.name-head{
+    /* background-color: turquoise; */
+    text-align: right;
+    font-size: 30px;
+    display: inline-block;
+    width: 250px;
+}
+.colon{
+    position: absolute;
+    padding: 0px;
+    z-index: 1;
+    font-size: 30px;
+    font-style: italic;
+    /* background-color: violet; */
+    
+}
+#address{
+    margin-left: 100px;
+    display: grid;
+    width: 400px;
+    grid-template-columns: auto auto ;
+    font-size: 25px;
+    opacity: .9;
+}
+.div{
+    text-align: right;
+}
+.div1{
+    text-align: left;
+    font-style: italic;
+}
+table{
+    z-index: 10;
+    border: olive solid 2px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+table caption{
+    font-size: 2rem;
+    background-color: rgb(51, 50, 50);
+    color: white;
+}
+table tr:nth-child(odd){
+    
+    background-color: rgb(221, 208, 208);
+}
+table tr:nth-child(even){
+    
+    background-color: rgb(252, 212, 212);
+}
+
+th{
+    background-color: violet;
+    color: white;
+    min-width: 40px;
+    padding: 5px 0;
+}
+td{
+    padding: 5px 2px;
+    font-size: 20px;
+}
+
+
+
+.sec-table{
+    position: relative;
+
+}
+
+button:focus .Table{
+    visibility: visible;
+}
+.Table{
+     background-color: ;
+     background-color: white;
+    position: absolute;
+    margin-top: -220px;
+    margin-left: -350px;
+    min-width: 450px;
+    visibility: hidden;
+    padding: 0 20px;
+}
+
+.footer{
+    background-color:rgb(14, 14, 37);
+    width: 100%;
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content a button{
+    width: 20px;
+    font-size: 1rem;
+    line-height: 5px;
+    text-decoration: line-through;
+    text-align: center;
+    text-shadow: 4px 0px black;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    margin-left: 30px;
+}
+
+
+@media screen and (max-width:1000px) and (min-width:600px){
+    .Table{
+        margin-left: -300px;
+        margin-top: -300px;
+    }
+}
+@media screen and (max-width:1000px){
+
+}
+
+
